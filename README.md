@@ -1,4 +1,4 @@
 # grep_fasta
 ```
-$ grep_fasta.sh list.txt input.fasta
+$ grep_fasta.sh input.fasta list.txt
 ```
