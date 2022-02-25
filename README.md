@@ -5,3 +5,14 @@
 ```
 $ grep_fasta.sh input.fasta list.txt
 ```
+## get-SNPs
+ゲノムにリードをマッピングしてSNPをカウントするスクリプト
+
+## 依存
+- samtool
+- bbtool
+
+## Usage
+```
+$ . get_SNPs.sh ref.fa PE_R1.fq PE_R2.fq
+```
