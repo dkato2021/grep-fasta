@@ -16,3 +16,11 @@ $ grep_fasta.sh input.fasta list.txt
 ```
 $ . get_SNPs.sh ref.fa PE_R1.fq PE_R2.fq
 ```
+## blastp_batch
+- 複数のfastaファイルに対してblastpが実行されます。(dbは指定済)
+
+## Usage
+```
+source blastp_batch.sh <input_dir>
+```
+- input_dir:複数のfastaファイルが格納されたディレクトリ
